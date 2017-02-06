@@ -1,0 +1,234 @@
+*{
+    box-sizing:border-box;
+}
+body,p,pre,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input{
+    padding:0;
+    margin: 0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    display:block;
+    border:none;
+}
+body{
+    list-style:none;
+    font-size:0.24rem;
+}
+html{
+    font-size:100px;
+    font-family:"苹方";
+}
+.all{
+    width:7.5rem;
+    height:13.34rem;
+    background:#525154;
+}
+.top{
+    width:7.5rem;
+    height:1.40rem;
+    background:#29a6dc;
+    position:relative;
+}
+.return{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:0.25rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return img{
+    display:block;
+    width:0.09rem;
+    height:0.17rem;
+    margin:0.12rem 0.13rem;
+}
+.return1{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:6.65rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return1 img{
+    display:block;
+    width:0.2rem;
+    height:0.3rem;
+    margin:0.05rem 0.1rem;
+}
+.search{
+    width:5.45rem;
+    height:0.54rem;
+    border-radius:0.3rem;
+    background:#f5f5f5;
+    position:absolute;
+    margin-top:0.67rem;
+    margin-left:1.02rem;
+}
+.search-1{
+    width:0.27rem;
+    height:0.27rem;
+    background:url(../images/app2/search-b.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-left:0.12rem;
+    margin-top:0.14rem;
+    float:left;
+}
+.search-2{
+    width:4.6rem;
+    height:0.54rem;
+    background:#f6f6f6;
+    float:left;
+    border:none;
+    border-top-right-radius:0.3rem;
+    border-bottom-right-radius:0.3rem;
+    margin-left:0.18rem;
+    color:#666666;
+}
+.bottom{
+    width:7.5rem;
+    height:11.94rem;
+    background:#f2f2f2;
+    position:relative;
+}
+.rmss{
+    width:1.67rem;
+    height:0.54rem;
+    margin-left:0.24rem;
+    margin-top:0.35rem;
+    position:absolute;
+}
+.rmss-left{
+    width:0.3rem;
+    height:0.3rem;
+    background:url(../images/app2/zxsj-logo.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.02rem;
+    float:left;
+}
+.rmss-right{
+    width:1.22rem;
+    height:0.54rem;
+    margin-left:0.15rem;
+    float:left;
+}
+.rmss-right1{
+    width:1.22rem;
+    height:0.28rem;
+    color:#333333;
+    font-size:0.28rem
+    margin-bottom:0.12rem;
+}
+.rmss-right2{
+    width:1.22rem;
+    height:0.14rem;
+    color:#a5a5a5;
+    font-size:0.14rem
+}
+.rmss-inter{
+    width:7.02rem;
+    height:5.52rem;
+    margin-left:0.24rem;
+    margin-top:1.19rem;
+    position:absolute;
+}
+.rmss-inter1{
+    width:7.02rem;
+    height:1.68rem;
+    border-radius:0.05rem;
+    background:#fff;
+    margin-bottom:0.16rem;
+}
+.rmss-inter1-left{
+    width:2.26rem;
+    height:1.52rem;
+    background:url(../images/app2/rmss-inter1-left.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-left:0.07rem;
+    margin-top:0.07rem;
+    position:absolute;
+    float:left;
+}
+.rmss-inter1-center{
+    width:0.03rem;
+    height:1.5rem;
+    float:left;
+    margin-left:2.5rem;
+    margin-top:0.09rem;
+    border-right:0.03rem dashed #c7c7c7;
+}
+.rmss-inter1-right{
+    width:3.84rem;
+    height:1.45rem;
+    margin-top:0.15rem;
+    margin-left:2.75rem;
+    position:absolute;
+}
+.rmss-inter1-right1{
+    width:3.84rem;
+    height:0.27rem;
+    font-size:0.28rem;
+    color:#333333;
+}
+.rmss-inter1-right2{
+    width:3.84rem;
+    height:0.59rem;
+    margin-top:0.13rem;
+    color:#666666;
+}
+.rmss-inter1-right3{
+    width:4rem;
+    height:0.24rem;
+    margin-top:0.2rem;
+}
+.rmss-inter1-right3-left{
+    width:2rem;
+    height:0.24rem;
+    float:left;
+}
+.rmss-inter1-right3-left img{
+    width:0.18rem;
+    height:0.24rem;
+    display:block;
+    float:left;
+}
+.rmss-inter1-right3-left{
+    line-height:0.24rem;
+    font-size:0.14rem;
+}
+.rmss-inter1-right3-right{
+    width:1.4rem;
+    height:0.24rem;
+    float:right;
+}
+.rmss-inter1-right3-right img{
+    width:0.18rem;
+    height:0.24rem;
+    display:block;
+    float:left;
+}
+.rmss-inter1-right3-right{
+    line-height:0.24rem;
+    font-size:0.14rem;
+}
+.bottom-jp{
+    width:7.5rem;
+    height:4.32rem;
+    background:url(../images/app2/bottom-jp.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:7.62rem;
+    position:absolute;
+}
+@media screen and (max-width:376px){
+    html{
+        font-size:50px;
+    }
+}

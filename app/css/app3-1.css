@@ -1,0 +1,327 @@
+*{
+    box-sizing:border-box;
+}
+body,p,pre,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,span{
+    padding:0;
+    margin: 0;
+    list-style:none;
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    display:block;
+    border:none;
+}
+body{
+    list-style:none;
+    font-size:0.24rem;
+}
+html{
+    font-size:100px;
+    font-family:"苹方";
+}
+.all{
+    width:7.5rem;
+    height:13.34rem;
+    background:#f2f2f2;
+}
+.top{
+    width:7.5rem;
+    height:1.40rem;
+    background:#29a6dc;
+    position:relative;
+}
+.return1{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:6.8rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return1 img{
+    display:block;
+    width:0.22rem;
+    height:0.22rem;
+    margin:0.08rem 0.08rem;
+}
+
+.bottom{
+    width:7.5rem;
+    height:11.94rem;
+    background:#e2e2e2;
+    position:relative;
+}
+.nav{
+    width:5.71rem;
+    height:0.84rem;
+    position:absolute;
+    margin-left:0.9rem;
+    margin-top:0.48rem;
+}
+.nav-inter{
+    width:5.71rem;
+    height:0.84rem;
+    background:#2a3441;
+    border-radius:0.4rem;
+    position:absolute;
+}
+.nav-inter3{
+	width:0.9rem;
+	height:0.38rem;
+	margin-left:0.3rem;
+	margin-top:0.2rem;
+	float:left;
+}
+.nav-inter3 span{
+	display:block;
+	width:0.9rem;
+	height:0.24rem;
+	color:#fff;
+	font-size:0.24rem;
+    margin-left:0.3rem;
+}
+.nav-inter3 p{
+	display:block;
+	width:0.4rem;
+	height:0.14rem;
+	color:#a1bbc7;
+	font-size:0.12rem;
+	text-align:center;
+}
+.nav-inter2{
+	width:0.03rem;
+	height:0.59rem;
+	float:left;
+	margin-left:0.28rem;
+	margin-top:0.12rem;
+	background:url(../images/app3/xzlr-sx.png) no-repeat 0 0;
+}
+.nav-inter1{
+	width:1.65rem;
+	height:0.7rem;
+	border-radius:0.35rem;
+	background:#29a6dc;
+	float:left;
+	margin-top:0.07rem;
+	margin-left:0.1rem;
+	border:0.02rem solid #fff;
+}
+.nav-inter1 span{
+	color:#fff;
+	font-size:0.24rem;
+	text-align:center;
+	margin-left:0.3rem;
+}
+.nav-inter1 p{
+	color:#a1bbc7;
+	font-size:0.12rem;
+	text-align:center;
+}
+.nav-inter4{
+	width:0.03rem;
+	height:0.59rem;
+	float:left;
+	margin-left:0.53rem;
+	margin-top:0.12rem;
+	background:url(../images/app3/xzlr-sx.png) no-repeat 0 0;
+}
+.nav-inter5{
+	width:0.9rem;
+	height:0.38rem;
+	margin-left:0.3rem;
+	margin-top:0.2rem;
+	float:left;
+}
+.nav-inter5 span{
+	display:block;
+	width:0.9rem;
+	height:0.24rem;
+	color:#fff;
+	font-size:0.24rem;
+	text-align:center;
+}
+.nav-inter5 p{
+	display:block;
+	width:0.9rem;
+	height:0.14rem;
+	color:#a1bbc7;
+	font-size:0.12rem;
+	text-align:center;
+}
+.bottom-1{
+    width:7.5rem;
+    height:4.83rem;
+    background:url(../images/app3/banner.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.bottom-2{
+    width:0.59rem;
+    height:0.08rem;
+    margin-left:3.4rem;
+    margin-top:0.14rem;
+}
+.circle{
+    width:0.08rem;
+    height:0.08rem;
+    border-radius:50%;
+    border:0.01rem solid #0090ff;
+    margin:0 0.05rem;
+    float: left;
+}
+.bottom-3{
+    width:1.95rem;
+    height:0.53rem;
+    margin-top:0.04rem;
+    margin-left:0.38rem;
+    margin-bottom:0.27rem;
+    position:relative;
+}
+.bottom-3-left{
+    width:0.3rem;
+    height:0.3rem;
+    background:url(../images/app3/zxsj-logo.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.02rem;
+    margin-right:0.16rem;
+    position:absolute;
+    float:left;
+}
+.bottom-3-right{
+    width:1.3rem;
+    height:0.53rem;
+    float:left;
+    margin-left:0.46rem;
+}
+.bottom-3-right1{
+    width:1.3rem;
+    height:0.25rem;
+    font-size:0.28rem;
+    color:#333;
+}
+.bottom-3-right2{
+    width:1.3rem;
+    height:0.15rem;
+    font-size:0.16rem;
+    margin-top:0.05rem;
+    color:#333;
+}
+.bottom-4{
+    width:6.5rem;
+    height:3.75rem;
+    margin-left:0.5rem;
+}
+.bottom-4-1{
+    width:1.79rem;
+    height:3.75rem;
+    margin-right:0.64rem;
+    position:relative;
+    float:left;
+}
+.bottom-4-1-top{
+    width:1.79rem;
+    height:2.55rem;
+    background:url(../images/app3/zxsj-dy.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.1rem;
+    position:absolute;
+}
+.bottom-4-1-wz1{
+    width:1.79rem;
+    height:0.43rem;
+    color:#333;
+    font-size:0.2rem;
+    margin-top:2.7rem;
+    position:absolute;
+}
+.bottom-4-1-wz2{
+    width:1.79rem;
+    height:0.18rem;
+    color:#333;
+    font-size:0.18rem;
+    margin-top:3.3rem;
+    position:absolute;
+}
+.bottom-ztl{
+    width:7.5rem;
+    height:1rem;
+    background:#141b2a;
+    position:fixed;
+    bottom:0;
+}
+.bottom-ztl a{
+    display:block;
+    width:2.5rem;
+    height:1rem;
+    border-right:0.01rem solid #717171;
+    float:left;
+}
+.bottom-ztl-1 p{
+    display:block;
+    width:0.46rem;
+    height:0.44rem;
+    background:url(../images/app2/shujia.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+.bottom-ztl-1 span{
+    display:block;
+    width:0.6rem;
+    height:0.23rem;
+    color:#67686a;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+.bottom-ztl-1 p:hover{
+    background:url(../images/app2/shujia-w.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.bottom-ztl-2 p{
+    display:block;
+    width:0.46rem;
+    height:0.44rem;
+    background:url(../images/app2/shucheng-w.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+
+.bottom-ztl-2 span{
+    display:block;
+    width:0.6rem;
+    height:0.23rem;
+    color:#fff;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+.bottom-ztl-3 p{
+    display:block;
+    width:0.46rem;
+    height:0.44rem;
+    background:url(../images/app2/wode.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+.bottom-ztl-3 p:hover{
+    background:url(../images/app2/wode-w.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.bottom-ztl-3 span{
+    display:block;
+    width:0.6rem;
+    height:0.23rem;
+    color:#67686a;
+    margin-top:0.09rem;
+    margin-left:1rem;
+}
+@media screen and (max-width:376px){
+    html{
+        font-size:50px;
+    }
+}
