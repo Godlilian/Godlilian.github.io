@@ -320,8 +320,30 @@ html{
     margin-top:0.09rem;
     margin-left:1rem;
 }
-@media screen and (max-width:376px){
+@media screen and (min-width:320px){
+    html{
+        font-size:42.7px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
     html{
         font-size:50px;
+    }
+}
+
+@media screen and (min-width:412px){
+    html{
+        font-size:54.9px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size:55.3px;
     }
 }

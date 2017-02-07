@@ -21,7 +21,6 @@ html{
 .Login{
     width:7.5rem;
     height:13.34rem;
-    background:red;
 }
 .top{
     width:7.5rem;
@@ -228,8 +227,30 @@ html{
     margin-right:0.29rem;
     float:right;
 }
-@media screen and (max-width:376px){
+@media screen and (min-width:320px){
+    html{
+        font-size:42.7px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
     html{
         font-size:50px;
+    }
+}
+
+@media screen and (min-width:412px){
+    html{
+        font-size:54.9px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size:55.3px;
     }
 }
