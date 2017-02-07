@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>总结</title>
+</head>
+<body>
+	 <pre>
+<h1>html基础</h1>
+
+<h2>1、网站制作流程</h2>
+前端：美工设计/ps，页面布局优化/html+css，创建动态html页面，使网站动感有魅力，吸引更多浏览器/javascript
+后台：后台程序的建设/php，asp，jsp，.net
+    数据库设计/mysql
+    服务器的选择
+    html（超文本标记语言）
+    xhtml（可扩展标记语言）
+    w3c（万维网联盟）
+<h2>2、标签的嵌套</h2>
+    1）嵌套时不能交叉
+    2）行标签之间嵌套顺序不会影响显示
+    3）行标签一般情况下嵌套在块标签当中
+<h2>3、行标签</h2>：font，b，i，em，strong，del，a，span，img；
+    a标签：主要用来链接一个其他的网页；
+    span标签：主要用来对行内的文字进行一些样式以及其他的操作；
+    em标签：一般用来对文字进行强调，使用斜体体现出来，i标签与它相同但是权重低于em标签；
+    strong标签：一般用来对文字进行强调，使用加粗字体体现出来，b标签与它相同但是权重低于strong标签；
+    img标签：图片引用标签，其中 src属性中写入图片的地址；
+<h2>4、块标签</h2>：包含p、div、ul、ol、li、dl、dt、dd、h1~h6；
+    p标签：段落标签，段落文字使用，默认格式：段尾进行换行；
+    div标签：划分块的主要使用标签；
+    ul标签：无序列表的主标签，后面的标号为圆点（黑色）；
+    ol标签：有序列表的主标签，后面一般跟有序的1,2,3,4,5...；
+    li标签：列表中的主体使用标签
+    dl标签：自定义标签的主标签；
+    dt标签：自定义标签的表头；
+    dd标签：自定义标签的表头的解释（描述）信息；
+    h1~h6：6级标题标签、字体的大小依次变小。
+    区别：块标签：独自占领一行、可以进行宽高的数值的设定；
+    行标签：在一行内显示、不可以进行宽高的数值设定；
+    其中div是最基本的块标签，span是最基本的行标签（对内容没有影响）
+<h2>5、a标签name通过href到达</h2>
+    空格&ampnbsp；
+<h2>6、img</h2>
+    src里设置图片的位置，alt显示图片加载失败后的字体，也可以在”后面直接设置图片的高度或宽度，但最好之设置其中一个，以防止图片变形，也可以设置border描边以及title设置标题
+<h2>7、图像地图</h2>
+    img定义图片，map定义图象地图，area定义图象可点击区域，其中设置点击区域的形状
+<h2>8、列表标签</h2>
+    1）无序列表：ul标签 设置不同类型的显示，如：disc，circle，square
+    2）有序列表：ol标签 设置不同类型的显示，如：a，A,1
+    3）自定义标签：dl标签 
+<h2>9、表格</h2>
+    设置table标签 tr标签（行标签：表示一行） 同时里面可以设置border，bgcolor等，同时可通过使用colspan产生行合并，rowspan产生列合并
+
+<h1>表单</h1>
+<h2>1、表单form</h2>:是web浏览器个web服务器进行通信的最常用的手段，即通过表单，浏览器不仅能从服务器中获得信息而且还能向web服务器反馈信息，HTML为此提供了表单（Form）元素来设计和实现这种交互界面
+  form标签：指定表单的范围其重要的属性
+     1、action，用来指定提交的地址
+     2、method，用来指定提交的方式，默认的提交方式：get，还可以设置成post，get与post 的比较与区别：
+        1)get：适用于绝大多数情况，其特点：传输的数据量比较小，速度比较快，安全性较低，通过地址栏提交           
+        2)post：传输的数据量比较大，速度比较慢，安全性较get高一些，通过头文件来提交
+<h2>2、表单控件（提交信息）</h2>：
+  1）input标签（常见表单控件）：
+    type：用来指定当前表单控件的类型
+    name：表示数据的指定
+    value：通过value来指定input控件的一个默认值
+    radio：单选
+    checkbox：多选
+    submit：提交
+    reset：重置
+    buttou：普通按钮，无实际意义
+    size：区域内可输入内容的长度
+    maxlength属性：限制输入的长度
+    readonly：只读，不能修改
+    disabled：禁用
+    checked：默认被选中
+    file:上传文件
+  2）textarea标签，双标签，用来定义一个文本区域,其属性控件有：
+    name
+    cols：控制区域的行
+    rows：控制区域的列
+  3）select标签，下拉选项
+    option：设置内容  
+    selected：默认选项
+  4）label标签
+    1.直接将字与表格控件包含起来
+    2.可利用for与id交换位置及扩展使用
+  5）iframe 帧窗口
+  6）target 在同一个网页里打开多个网页窗口。
+<h2>3、css</h2>:中文翻译为层叠样式表，是用于控制网页样式并允许将样式信息与网页内容分类的一种标记性语言
+    1.行内样式:在标签中加入属性，块元素可以设置宽高，行元素不能设置宽高
+    2.嵌入样式:通过选择器选择
+    3.引入样式（最常用）：新建css后缀文件
+    4.导入样式
+    样式优先级：通过多种方式控制同一个元素时，行内样式 > 嵌入样式/引入样式/导入样式 后边的样式覆盖前边样式
+<h2>4、最基本的选择器</h2>：标签名选择器
+    选择器优先级(越精确优先级越高)：
+    id选择器 > 类名选择器 > 标签名选择器 > 通用选择器 > 每个标签的默认样式 > 继承样式
+    id选择器只能控制一个元素
+ 选择器：表示把所有的标签都选中，也叫通用选择器，可以选择任何标签
+  1）群组选择器：当多个选择器控制的样式相同的时候，可以用群组选择器组合在一起，
+    形式：选择器1，选择器2，选择器3｛｝
+  2）交叉选择器：选择元素更准确的更准确的
+    标签名.类名 > 类名
+    标签名#id > id
+  3）后代选择器：
+    选择器1 选择器2
+  4）继承样式：所有文字属性都会继承。
+  5）伪类选择器：在现有的选择器的基础上进行二次的选择  ：hover当鼠标经过元素时的样式
+<h2>5、字体的属性</h2>
+    font-family:"微软雅黑","黑体"（在body里定义）          
+    字体的大小   font-size:16px;(备用字体：12px ,14px ,16px)     
+    em代表当前所继承字体大小的倍数font-size:1em;font-size:1rem;
+    rem相对于根元素html所设置字体大小的倍数，不仅可以使用在字体中，也可以使用在宽、高距离中
+    text-decoration：文本修饰（underline/下划线  line-through/删除线  none）
+    line-height：只适用于单行文字垂直居中
+<h2>常见样式</h2>
+1.
+   1)none：无样式
+   2)dotted：点线
+   3)solid：实线
+   4)double：双线
+   5)groove：槽线
+   6)ridge：脊线
+   7)inset：内凹
+   8)outset：外凸
+   9)margin-top设置问题
+    (1）设置父元素上边框
+    (2）上内边距
+    (3）子元素的浮动属性
+    (4）子元素需要为第一个
+2.background-repeat：no-repeat（不重复）/repeat-x（x轴重复）/repeat-y（y轴重复） 
+    background-position： left/right/top/bottom/center（调整图片位置）可设置坐标，横向x轴，竖向y轴
+    background-img：url（）
+    background-attachment：fixed；
+    （固定在页面中，移动端不能使用）
+    background：red url（） 
+    图片精灵 css精灵 雪碧图
+    调整图片的位置，优化传输速度
+3. 
+    1.min-width/max-width/min-height/max-height
+      当页面需求是可设置页面的最大、最小值
+    2.overflow：auto 超出后显现滚动条
+    3.列表标记定义
+      list-style-type(设置图形)
+      disc黑圆点   cicle空心圆点    none 无列表项标记 
+      square小黑方块    decimal数字排序    upper-alpha大写字母排序
+      lower-roman小写罗马字母排序     upper-roman大写罗马字母排序
+      list-style-position(显示在盒子内或外)
+      list-style-image（引入自定义图片作为标记）
+      visibility（视觉效果隐藏）:hidden(隐藏)  visibile（显示）collspacing （边框合并）
+      border-collapse：collapse;(合并边框)
+      table-layout：fixed；（表格固定）
+
+<h1>盒子模型</h1>
+定义：利用块元素水平排列、纵向排列、嵌套排列相结合来完成网页布局的一种方式 
+<h2>1、margin</h2>(用来设置盒子外边距)：
+    margin-left/margin-right/margin-top/margin-bottom
+    两个盒子同一位置的边距会合并使用较大的值
+  margin设置： 
+    一个值表示四个方向
+    两个值表示上下 左右
+    三个值表示上  左右 下
+    四个值表示上右下左（顺时针方向）
+    设置块元素居中  margin：0 auto；/ margin-left：auto；margin-right：auto；
+    margin可以设置负值，更改所在位置
+<h2>2、padding</h2>（用来设置盒子的内边距）：
+    padding-left/padding-right/padding-top/padding-bottom
+    元素所真正占用的宽高  width+padding-left+padding-right+border-left-width+border-right-width
+    padding不能设置负值
+<h2>3、border</h2>（用来设置盒子边框）
+    border-top border-bottom border-left border-right
+    border-color  border-style border-width border-left-width；
+    元素没有设置宽度值时，宽度会自适应父元素，不会超出父元素
+    元素没有设置高度值时，高度由子元素撑开
+<h2>4、清除列表样式设置</h2>list-style：“none；”
+    采用群组选择器：body，p，pre，ul，h1，h2，h3，h4，h5，h6，ol，dl，dt，dd
+<h2>5、设置边距属性等</h2>  
+    行元素设置外边距：只有左右有效果上下无效果
+    设置内边距：四个方向都有效果，都识别，但不会影响其他行元素
+    行内块级元素：img/input/textarea/select    
+    可以设置内外边距 
+    display 转换属性  将行元素、块元素、行内块级元素相互转化
+    block（块元素） inline（行元素）  inline-block（行内块级元素） none（隐藏）；
+<h2>6、链接中放置图片</h2>
+    1.a标签没有宽高   display：block；
+    2.高度由图片自动撑开会比图片高    img{display：block；}
+    3.在IE浏览器当中图片会自动出现边框  img{ border：none；}
+<h2>7、float（浮动属性）</h2>
+    float-left左浮动  float-right（右浮动）
+    特点：1）脱离文档流，同级元素没有浮动属性会视它不见
+          2）浮动元素会在当前行显示，除非前面元素也有浮动，它会移动到前一行元素的后面
+          3）凡是需要在一行显示的元素，都需要添加浮动属性
+          4）浮动元素还是会受父元素的限制
+          5）浮动元素在一行放不下的时候会自动换行
+          6）clear：清楚浮动影响    left   right  both 
+          7）浮动元素不能把父元素的高度撑开
+              1.在浮动元素的最后增加一个div 设置clear：both；
+              2.给父元素设置  overflow：hidden；
+<h2>8、overflow(对于超出元素部分的处理)</h2>
+    hidden  超出部分隐藏掉
+    scroll  不管内容有没有超出  都显示滚动条
+    auto   不超出正常显示  超出之后显示滚动条
+    overflow-x（单独对于x轴进行设置）     overflow-y（单独对于y轴进行设置）
+
+
+<h1>HTML5(html开始推出于2014年10月由万维网（w3c))</h1>
+
+<h2>1、语法规则</h2>
+      1.标签必须小写
+      2.属性值引号可加可不加
+      3.部分标签结束标签可不写
+      4.单标签不加结束标签
+<h2>2、 新增一系列语义化标签</h2>
+    1.结构性标签（结构性标签主要负责web的上下文结构的定义）
+      1.section定义一节内容，表达书的的一部分或一章
+      2.header用来放置网页的头部
+      3.footer用来放置网页的底部
+      4.nav是专门用来放置菜单导航和链接导航的标签
+      5.article用于表示一篇文章的主题内容，一般为文字集中显示的区域
+      6.hgroup 对网页或区段（section）进行整合
+    2.块级性标签
+      1.aside用于表达注记标示，侧边栏的内容
+      2.figure 标签规定独立的流内容 与figcaptain联合使用
+      3.code用来放置代码块，字体比正常字体小
+      4.dialog用来配合dt，dd使用
+    3.行标签
+      meter表示特定的数值比例
+      time用来表示时间
+      progress用来表示进度条
+     （设置属性有min/max/value）
+    4.属性
+      contenteditable可以改标签内内容，内容可编辑
+      hidden 隐藏属性
+    5.多媒体标签
+      video 引入视频文件
+    可以设置的属性：
+        autoplay加载完成后就可以播放
+        controls有可控制的按钮
+        loop 当播放结束时重新开始播放
+        muted 默认开始静音
+        preload 规定打开页面时，音频是否被加载以及如何被加载 
+        src 加载路径
+    6.audio 引入音频文件(可以设置的属性和video一样)
+    7.画板标签
+      canvas 可以定义宽度和高度 主要功能实现需要JS
+<h2>3、HTML5表单功能</h2>
+    表单结构更为自由
+    <textarea name="" id="" cols="30" rows="10">
+    <form action="" id="iform"></form>
+    <input type="" form="iform" name="">
+    </textarea>
+    在form设置id input通过新增的form属性指向id值
+    placeholder属性，提供默认的提示文字
+    required属性 ，提示未输入
+    pattern属性  pattern="^\d{7}$" 正则验证
+    autofocus属性   自动获得焦点
+    autocomplete自动完成属性 数值off/on 默认为on
+    novalidate不验证可以提交 数值true/false，设置在form。
+    multiple 可以进行多选 （用于email 或select完成多选）
+    表单重写属性
+    formaction---重写表单action属性
+    formenctype--- 重写表单enctype属性
+    formmethod ---重写表单method属性
+    formnovalidate---重写表单novalidate属性
+    formtarget---重写表单target属性
+<h2>4、list的用法</h2>：
+    <textarea name="" id="" cols="30" rows="10">
+    <li>
+    <input type="search" list="mylist">
+    <datelist id="mylist">
+    <option value="1" label="a">
+    <option value="2" label="b">
+    <option value="3" label="c">
+    </datelist>
+    </li>
+    </textarea>
+<h2>5、type相关</h2>
+    1.电子邮件的提交   type="email
+    2.地址的提交  type="url"
+    3.日期  type=date
+      time(几点几分)
+      month（几年几月）
+      week（几年几周）
+      datetime-local（完整的时间）
+    4.number类型
+      type=number 可以设置min最小值 max最大值 step间隔 value默认值
+    5.滑块 range
+      滑块 type=range  可以设置min最小值 max最大值 step间隔 value默认值
+    6.搜索 search
+      type=search
+    7.电话号码
+      type=tel
+    8.颜色
+      type=“color”
+
+<h1>css3</h1>
+
+<h2>1、选择器相关</h2>
+nate-river.github.io/css3/   css属性网站
+    标签选择器 div
+    类名选择器 .qq
+    id选择器   #qq
+    通用选择器 *{}
+    群组选择器 body，ul
+    交叉选择器 div.li
+    后代选择器 ul li
+    伪类选择器 a：hover  
+    选择器：
+    li:first-child{background:red}     (作为子元素第一个)
+    li:last-child{}                           （作为子元素左后一个）
+    li：nth-child（）{}                （指定某一个子元素，括号里值为数字）
+    li：nth-last-child（）{}          （倒着数）
+    li：nth-child（even/odd）{}   (指定奇数或偶数的子元素 even奇数 odd偶数)
+    li：nth-child（2n）{}            （指定子元素，数值为n的倍数）
+    li：only-child{}                      （指定唯一的子元素）
+    first-of-type（同类型里面的第一个） 
+    nth-of-type（1、2。。。）   nth-last-of-type（1、2.。。）（倒着数同类型地几个）
+    last-of-type
+    子选择器
+    只控制后代 .div>ul{}
+    p+div  必须紧邻的才可以选择
+    p波浪线div 只要在p后面就选择
+<h2>2、设置圆角 圆角半径 </h2>  
+    一个值:   设置4个方向  
+    两个值：左上 右下     左下  右上    
+    三个值:   左上  左下右上 右下
+    四个值:   左上角开始顺时针旋转
+    border-radius：50%  
+    设置椭圆形圆角
+    10/20 长轴半径20，短轴半径10
+    四个方向不一样则10 20/20/ 40 斜杠只可存在一个（插入斜杠）
+<h2>3、阴影效果</h2>
+    1.box-shadow：10（x）10 (y)5（模糊程度）10（大小设置）red（颜色） inset（内阴影属性）；
+    可以将模糊程度设为负值 对阴影目标进行放大或缩小处理；
+    可以设置多组，可以模拟多边框效果
+    2.文字阴影 
+    text-shadow ：10 10 10 color 同样可以实现多层阴影效果
+<h2>4、outline:轮廓线</h2>（不会占据布局位置）
+    outline-offset：3px;(调整向外偏移量)
+<h2>5、background</h2>
+    background-img 可应用多张图片 且用逗号隔开
+    background-position：center（居中）位置可设置
+    background-size：数值  百分比  
+    cover（覆盖整个区域） 
+    contain（优先展示图片）（两者都是等比例缩放的）  
+    background-repeat：no repeat；
+<h1>渐变</h1>
+<h2>1.线性渐变</h2>
+    background：linear-gradient(top   bottom  left  right  共可设置8个方向)
+    deg角度设置  默认从下往上  渐变的基准线与垂直方向的夹角
+    渐变颜色>=2   background-size  调整渐变大小  transparent 透明度
+<h2>2.重复线性渐变</h2>
+    background：repeating-linear-gradient
+<h2>3.径向渐变</h2>
+    background-gradient
+<h2>4.重复径向渐变</h2>
+    background：repeating-radia-gradient
+<h2>5.相关属性</h2>
+    哪些属性可以过度：transition-property：background；
+    过渡的时间：transition-duration
+    过渡的动画方式：transition-timing-function；
+    linear均匀  ease-in越往后越快  ease-out越往后越慢
+    ease-in-out先加速后减速；
+<h2>贝塞尔曲线</h2>
+    transition-delay
+    transform：translate（x,y）
+    transform:rotate(..deg)旋转（角度）
+    transform：origin
+    transform：scale(a,b)缩放
+<h1>ie6兼容配置</h1>
+<h2>1.容器的高度会被子元素自动撑开</h2>
+   1）给容器设置overflow：hidden，超出部分隐藏
+   2）设置position 定位  给父元素设置相对定位，给子元素设置绝对定位
+<h2>2.容器的高度设置很小的值也会被撑开</h2>
+   1）给容器设置overflow：hidden
+<h2>3.浮动元素与行元素不能在一行显示</h2>
+   1）给行元素同样设置浮动
+<h2>4.input里文字不会自动垂直居中</h2>
+   1）手动设置line-height实现居中
+<h2>5.不支持固定定位</h2>
+   1）利用js脚本通过绝对定位模拟固定定位
+<h2>6.双倍边距问题：当给一系列元素设置边距时第一个会变为2倍</h2>
+   1）设置 margin为原来边距的1/2 将有双倍边距的元素设置为原来的一半
+   如果为单数时——display：inline  给有双倍边距的元素设为display：inline
+<h2>7.设置margin为负值时，显示不出来超出部分被隐藏</h2>
+   1）给元素设置相对定位
+<h2>8.不支持a元素之外的hover效果</h2>
+   1）使用js来完成类似效果
+<h2>9.不支持png24图片类型</h2>
+   1）使用属性为png8的替换
+
+<h2>css hack</h2>
+   通过设置属性名或选择器添加一些特定的前缀，从而让属性名和选择器只会被特定浏览器识别
+    -moz 火狐  -webkit  谷歌  -属性名  ie6识别   
+<h1>动画</h1>
+
+<h2>1、定义一个动画</h2>
+    @keyframs  name
+<h2>2、应用动画</h2>  
+    animation--name  指定动画名称
+             --duration  指定动画持续时间
+             --timing--function  出现方式
+             --deplay  延迟时间
+             --iteration-count:infinite  循环播放
+             --fill-mode：forwards  把动画最终的状态停止到结尾不动
+             --backwords初始状态（默认值)
+             --play--state:paused  鼠标悬浮动画暂停
+                           play  开始播放
+<h1>响应式布局</h1>
+现在很流行的一个设计理念，随着移动互联网的盛行，为解决如今各式各样的浏览器分辨率以及不同移动设备的显示效果，设计师提出了响应式布局的设计方案。
+所谓响应式布局，就是一个网站能够兼容多个终端----而不是为每个终端做一个特定的版本，也就是说一个
+页面可以再多个终端显示不同的效果。
+1. 主要目的：不同分辨率，不同设备使用。
+2. 原理
+    媒体查询   media query  来实现
+   @media+媒体类型screen+操作符（条件）{css样式}
+   媒体类型       screen屏幕    all所有设备
+   操作符   [ and链接    not排除    only限定]
+   条件
+         width  当宽度为具体的值的时候可见
+         min-widt   当宽度大于某个值时可见
+         max-width  当宽度小于某个值时可见
+         
+3. 阈值     布局发生变化的临界值
+4.设置meat标签
+可以使用视图的meta标签来进行重置。下面的视图标签告诉浏览器，使用设备的宽度作为视图宽度并禁止初始的缩放。
+在head标签里加入这个meta标签。
+《meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"》
+	 </pre>
+</body>
+</html>
