@@ -2342,6 +2342,7 @@ body{
 	margin-left:-70px;
 	float:left;
 	cursor:pointer;
+    -webkit-margin-start:0px;
 }
 .login-zt2-1:hover{
 	background:#d63c04;
