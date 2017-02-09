@@ -241,7 +241,6 @@ background-position: center;
 .more{
 	width:980px;
 	height:auto;
-	border-bottom:1px solid #e9e9e9;
 	margin:0 auto;
 }
 .more span{
@@ -278,10 +277,9 @@ background-position: center;
 	color:#99a3b9;
 }
 .bottom-one a:hover{
-	/*text-decoration:underline;*/
+	text-decoration:underline;
 }
 .bottom-two{
-	width:330px;
 	height:15px;
 	float:left;
 }
@@ -328,19 +326,27 @@ background-position: center;
 	float:left;
 }
 @media screen and (max-width:1068px) {
+	html{
+		width:100%;
+	}
      .footer-container{
      	width:100%;
      	padding-left:10px;
      }	
+	.more {
+		width:100%;
+	}
 }
 @media screen and (max-width:735px){
+	html{
+		width:100%;
+	}
 	.footer-cols{
 		width:100%;
 		height:auto;
 	}
 	.footer-title{
 		padding-left:10px;
-		border-bottom:1px solid #8c8c8c;
 	}
 	.footer-title span{
        display: block;
