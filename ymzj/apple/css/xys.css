@@ -14,19 +14,17 @@ a{
 }
 *{
 	box-sizing:border-box;
-    
 }
 img{
 	border:none;
 	cursor:pointer;
 }
-@font-face {
-  font-family: 'iconfont';  /* project id 222782 */
-  src: url('http://at.alicdn.com/t/font_nunr5h3dlijjdcxr.eot');
-  src: url('http://at.alicdn.com/t/font_nunr5h3dlijjdcxr.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_nunr5h3dlijjdcxr.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_nunr5h3dlijjdcxr.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_nunr5h3dlijjdcxr.svg#iconfont') format('svg');
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1486706426327'); /* IE9*/
+  src: url('iconfont.eot?t=1486706426327#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1486706426327') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1486706426327') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1486706426327#iconfont') format('svg'); /* iOS 4.1- */
 }
 /*顶部*/
 .nav{
