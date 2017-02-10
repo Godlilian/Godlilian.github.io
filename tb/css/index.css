@@ -52,7 +52,7 @@ body{
 	margin:0 auto;			
 }
 .top-right{
-	width:790px;
+	width:650px;
 	height:36px;
     position:absolute;
     margin-left:560px;
@@ -79,11 +79,17 @@ body{
 	background:#ffffff;
 	position:relative;
 }
+.search-ztjz{
+	width:1190px;
+	height:95px;
+	left:50%;
+	margin-left:-595px;
+	position:absolute;
+}
 .logo{
 	width:145px;
 	height:58px;
 	background:url(../images/logo.png) no-repeat 0 0;
-	margin-left:187px;
 	margin-top:37px;
 	position:absolute;
 }
@@ -91,7 +97,7 @@ body{
 	width:660px;
 	height:95px;
     margin-top:30px;
-    margin-left:430px;
+    margin-left:265px;
     position:absolute;
 }
 .search-top{
@@ -181,11 +187,17 @@ body{
 #search-bottom-1{
 	color:#ff5500;
 }
+.top-top-zt{
+	width:1190px;
+	height:34px;
+	left:50%;
+	margin-left:-595px;
+	position:absolute;
+}
 .navleft-top{
 	width:190px;
 	height:34px;
 	background:#ff6537;
-	margin-left:165px;
 	margin-top:130px;
 	position:absolute;
 }
@@ -205,10 +217,10 @@ body{
     margin-top:11px;
 }
 .navcenter{
-	width:1000px;
+	width:950px;
 	height:34px;
 	margin-top:130px;
-	margin-left:355px;
+	margin-left:190px;
 	position:absolute;
 }
 #navcenter-2{
@@ -287,7 +299,7 @@ body{
     height:400px;
     position:fixed;
     z-index:90;
-    right:104px;
+    right:80px;
     top:200px;
     background:red;
 }
@@ -366,8 +378,14 @@ body{
 	width:190px;
 	height:520px;
 	background:#ff6537;
-	margin-left:165px;
 	float:left;
+}
+.bottom-bottom-ztjz{
+	width:1190px;
+	height:7870px;
+	left:50%;
+	margin-left:-595px;
+	position:absolute;
 }
 .nav li{
 	width:190px;
@@ -642,7 +660,7 @@ body{
 .banner-center{
 	width:520px;
 	height:28px;
-	margin-left:365px;
+	margin-left:200px;
 	margin-top:290px;
 	border-bottom:1px solid #c12c26;
 	position:relative;
@@ -684,7 +702,7 @@ body{
 	width:520px;
 	height:200px;
 	position:absolute;
-	margin-left:365px;
+	margin-left:200px;
 	background:url(../images/banner2.png) no-repeat 0 0;
 }
 .banner1-box1{
@@ -707,13 +725,13 @@ body{
 	width:160px;
 	height:280px;
 	background:url(../images/banner-right-1.jpg) no-repeat 0 0;
-    margin-left:895px;
+    margin-left:735px;
     margin-top:-308px;
 }
 .banner-right2{
 	width:160px;
 	height:31px;
-	margin-left:895px;
+	margin-left:735px;
 	padding-top:10px;
 	position:relative;
 }
@@ -726,13 +744,12 @@ body{
 	width:160px;
 	height:200px;
 	background:url(../images/banner-right-2.jpg) no-repeat 0 0;
-	margin-left:895px;
+	margin-left:735px;
 }
 /*囤货栏*/
 .stockpile{
 	width:890px;
 	height:76px;
-	margin-left:165px;
 	margin-top:10px;
 }
 .stockpile img{
@@ -770,7 +787,6 @@ body{
 .wcgd{
 	width:890px;
 	height:39px;
-	margin-left:165px;
 	margin-top:10px;
 }
 .wcgd-1{
@@ -931,7 +947,6 @@ body{
 .kwc-all{
 	width:888px;
 	height:734px;
-	margin-left:165px;
 }
 .kwc-all-1{
 	width:439px;
@@ -961,7 +976,6 @@ body{
 .glzk{
 	width:888px;
 	height:380px;
-	margin-left:165px;
 	margin-top:10px;
 }
 .glzk-1{
@@ -1007,7 +1021,6 @@ body{
 .glzk-4{
 	width:888px;
 	height:258px;
-	margin-left:165px;
 	margin-bottom:10px;
 }
 .glzk-3-1{
@@ -1082,7 +1095,6 @@ body{
 	width:888px;
 	height:34px;
 	margin-top:10px;
-	margin-left:165px;
 }
 .pzshj-1{
 	width:220px;
@@ -1113,7 +1125,6 @@ body{
 	width:888px;
 	height:34px;
 	margin-top:10px;
-	margin-left:165px;
 }
 .tswwk-1{
 	width:220px;
@@ -1144,7 +1155,6 @@ body{
 	width:888px;
 	height:34px;
 	margin-top:10px;
-	margin-left:165px;
 }
 .shzyh-1{
 	width:220px;
@@ -1174,7 +1184,6 @@ body{
 .qcby{
 	width:890px;
 	height:275px;
-	margin-left:165px;
 }
 .qcby-top{
 	width:890px;
@@ -1357,7 +1366,6 @@ body{
 	height:71px;
 	background:url(../images/cw.jpg);
 	background-size:100% 100%;
-	margin-left:165px;
 	margin-top:16px;
 	margin-bottom:19px;
 }
@@ -1365,7 +1373,6 @@ body{
 .rmdp{
 	width:1190px;
 	height:477px;
-	margin-left:165px;
 }
 .rmdp-top{
 	width:1190px;
@@ -1543,7 +1550,6 @@ body{
 .xpbk{
 	width:1190px;
 	height:155px;
-	margin-left:165px;
 	margin-bottom:20px;
 }
 .xpbk a{
@@ -1561,7 +1567,6 @@ body{
 .tbzb{
 	width:1190px;
 	height:520px;
-	margin-left:165px;
 	background:#fff;
 }
 .tbzb-logo{
@@ -1723,7 +1728,6 @@ body{
 .bmqd{
 	width:1190px;
 	height:710px;
-	margin-left:165px;
 	background:#fff;
 	margin-top:11px;
 }
@@ -1838,7 +1842,6 @@ body{
 	width:1190px;
 	height:2409px;
 	background:#fff;
-	margin-left:165px;
 	margin-top:21px;
 }
 .cnxh-logo{
@@ -2048,6 +2051,8 @@ body{
 	width:100%;
 	height:207px;
     background:#fff;
+    position:absolute;
+    margin-top:7870px;
 }
 .bottom-top{
 	width:1190px;
@@ -2272,7 +2277,7 @@ body{
 .Rightcolumn{
 	width:290px;
 	height:3316px;
-	margin-left:1065px;
+	margin-left:900px;
 	margin-top:10px;
 	position:absolute;
 }
