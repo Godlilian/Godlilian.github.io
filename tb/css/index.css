@@ -1064,6 +1064,9 @@ body{
 	border-right:1px solid #eaeaea;
 	float:left;
 }
+.glzk-3-1-2:hover{
+	opacity:0.5;
+}
 .glzk-3-1-2 img{
 	margin-left:11px;
 	margin-top:9px;
@@ -1082,6 +1085,9 @@ body{
 	background-size:100% 100%;
 	margin:5px 5px;
 }
+.glzk-3-1-3:hover{
+	opacity:0.5;
+}
 .glzk-3-1-4{
 	display:block;
 	width:101px;
@@ -1089,6 +1095,9 @@ body{
 	background:url(../images/glzk-3-1-4.png) no-repeat 0 0;
 	background-size:100% 100%;
 	margin:5px 5px;
+}
+.glzk-3-1-4:hover{
+	opacity:0.5;
 }
 /*品质生活家*/
 .pzshj{
@@ -1412,6 +1421,7 @@ body{
 	height:396px;
 	float:left;
 	margin-right:1px;
+	cursor:pointer;
 }
 .rmdp-bottom-b{
 	width:234px;
@@ -1786,6 +1796,9 @@ body{
 	background:url(../images/bmqd-1.jpg) no-repeat 0 0;
 	background-size:100% 100%;
 }
+.bmqd-1-31:hover{
+	opacity:0.5;
+}
 .bmqd-1-32{
 	width:180px;
 	height:180px;
@@ -1794,6 +1807,9 @@ body{
 	float:left;
 	background:url(../images/bmqd-2.jpg) no-repeat 0 0;
 	background-size:100% 100%;
+}
+.bmqd-1-32:hover{
+	opacity:0.5;
 }
 .bmqd-1-33{
 	width:180px;
@@ -1804,6 +1820,9 @@ body{
 	background:url(../images/bmqd-3.jpg) no-repeat 0 0;
 	background-size:100% 100%;
 }
+.bmqd-1-33:hover{
+	opacity:0.5;
+}
 .bmqd-1-34{
 	width:180px;
 	height:180px;
@@ -1812,6 +1831,9 @@ body{
 	float:left;
 	background:url(../images/bmqd-4.jpg) no-repeat 0 0;
 	background-size:100% 100%;
+}
+.bmqd-1-34:hover{
+	opacity:0.5;
 }
 .bmqd-1-35{
 	width:180px;
@@ -1822,6 +1844,9 @@ body{
 	background:url(../images/bmqd-5.jpg) no-repeat 0 0;
 	background-size:100% 100%;
 }
+.bmqd-1-35:hover{
+	opacity:0.5;
+}
 .bmqd-1-36{
 	width:180px;
 	height:180px;
@@ -1830,6 +1855,9 @@ body{
 	float:left;
 	background:url(../images/bmqd-6.jpg) no-repeat 0 0;
 	background-size:100% 100%;
+}
+.bmqd-1-36:hover{
+	opacity:0.5;
 }
 .bmqd-1-4{
 	width:223px;
@@ -1917,6 +1945,9 @@ body{
 	background:url(../images/cnxh-1.jpg) no-repeat 0 0;
 	background-size:100% 100%;
 	margin:1px 1px;
+}
+.cnxh-center-11-1:hover{
+	opacity:0.5;
 }
 .cnxh-center-11-2{
 	width:224px;
@@ -2700,6 +2731,9 @@ body{
 	background:url(../images/bargains-1.jpg) no-repeat 0 0;
 	background-size:100% 100%;
 }
+.bargains-left:hover{
+	opacity:0.5;
+}
 .bargains-right{
 	float:left;
     width:160px;
@@ -2795,7 +2829,11 @@ body{
 	float:left;
 	margin-left:1px;
 	background:url(../images/everyshop-txzt-b.jpg) no-repeat 0 0;
-	background-size:100% 100%;}
+	background-size:100% 100%;
+}
+.everyshop-txzt2:hover{
+	opacity:0.5;
+}
 .everyshop-txzt1-1{
 	display:block;
 	width:89px;
@@ -2804,12 +2842,18 @@ body{
 	background-size:100% 100%;
 	margin-bottom:2px;
 }
+.everyshop-txzt1-1:hover{
+	opacity:0.5;
+}
 .everyshop-txzt1-2{
 	display:block;
 	width:89px;
 	height:89px;
 	background:url(../images/everyshop-txzt-x2.jpg) no-repeat 0 0;
 	background-size:100% 100%;
+}
+.everyshop-txzt1-2:hover{
+	opacity:0.5;
 }
 .everyshop-inter-bottom{
 	width:290px;
