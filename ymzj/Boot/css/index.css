@@ -138,7 +138,7 @@ body{
 }
 .bottom{
     width:100%;
-    height:52px;
+    height:auto;
     margin:0 auto;
     text-align:center;
     font-size:12px;
@@ -153,4 +153,68 @@ body{
 }
 .bottom a:hover{
     text-decoration:underline;
+}
+
+
+
+.footer-cols{
+    width:33%;height:260px;
+    margin:0 auto;
+    float:left;
+}
+@media screen and (max-width:1068px) {
+     .footer-container{
+        width:100%;
+        padding-left:10px;
+     }  
+    .more {
+        width:100%;
+    }
+}
+@media screen and (max-width:735px){
+    html{
+        width:100%;
+    }
+    .footer-cols{
+        width:100%;
+        height:auto;
+    }
+    .footer-title{
+        padding-left:10px;
+        color:#fff;
+        cursor:pointer;
+    }
+    .footer-title span{
+       display: block;
+       float:right;  
+       color:#000;
+       padding-right:10px;
+    }
+}
+.footer-cols a{
+    color:#8f8f8f;
+    font-size:16px;
+}
+.footer-cols a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+.footer-title{
+    height:48px;
+    color:#fff;
+    font-size:20px;
+    line-height:48px;
+}
+.footer-container:after{
+    content:"";
+    display:block;
+    width:100%;
+    clear:both;
+}
+@media screen and (max-width:1068px) {
+     .footer-container{
+        width:100%;
+        padding-left:10px;
+        margin:0 auto;
+     } 
 }
