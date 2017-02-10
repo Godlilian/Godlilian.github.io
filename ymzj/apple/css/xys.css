@@ -117,11 +117,11 @@ img{
     position:absolute;
 }
 .banner-top span{
-	font-size:40px;
+	font-size:36px;
 	color:#fff;
 	margin:40% 40%;
 	cursor:pointer;
-	padding-top:25%;
+	padding-top:25%;	
 }
 .banner-top p{
 	font-size:20px;
@@ -182,6 +182,10 @@ img{
 }
 }
 @media screen and (max-width:736px){
+
+    .banner-top span{
+    	font-size:25px;
+    }
 	.container .list{
 float: left;
 width: 100%;
