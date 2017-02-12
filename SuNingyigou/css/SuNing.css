@@ -840,7 +840,7 @@ html{
 .hdtj-inter-top2{
     float:left;
     margin-left:0.2rem;
-    margin-top:0.3rem;
+    margin-top:0.2rem;
 }
 .hdtj-inter-top2 span{
     font-size:0.3rem;
@@ -911,12 +911,123 @@ html{
     margin:0 0.05rem;
     float:left;
 }
-
-
-
-
-
-
+/*猜你喜欢*/
+.cnxh{
+    width:7.5rem;
+    height:auto;
+    background:#f2f2f2;
+}
+.cnxh-logo{
+    width:7.5rem;
+    height:0.86rem;
+    background:url(../images/cnxh-logo.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.cnxh-logowz{
+    width:7.5rem;
+    height:0.49rem;
+    color:#ffaa00;
+    font-size:0.26rem;
+    text-align:center;
+}
+.cnxh-inter{
+    width:7.3rem;
+    height:117.6rem;
+    background:#f2f2f2;
+    margin-left:0.1rem;
+}
+.cnxh-inter1{
+    width:3.45rem;
+    height:5.16rem;
+    background:#f2f2f2;
+    float:left;
+    margin-left:0.1rem;
+    margin-bottom:0.19rem;
+}
+.cnxh-inter1-top{
+    width:3.45rem;
+    height:3.47rem;
+    background:url(../images/cnxh-1.jpg) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.cnxh-inter1-bottom{
+    width:3.45rem;
+    height:1.5rem;
+    background:#fff;
+}
+.cnxh-inter1-bottom1{
+    width:3.45rem;
+    height:0.89rem;
+    color:#333;
+    font-size:0.24rem;
+}
+.cnxh-inter1-bottom2{
+    width:3.45rem;
+    height:0.61rem;
+}
+.cnxh-inter1-bottom2-1{
+    width:1rem;
+    height:0.24rem;
+    font-size:0.24rem;
+    color:#e21d1d;
+    text-align:center;
+    float:left;
+    margin-left:0.16rem;
+}
+.cnxh-inter1-bottom2-2{
+    width:1.3rem;
+    height:0.51rem;
+    border-radius:0.05rem;
+    border:0.01rem solid #ffd041;
+    color:#ffd041;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.51rem;
+    float:right;
+    margin-right:0.15rem;
+}
+/*下载*/
+.download{
+    width:7.5rem;
+    height:1.5rem;
+    background:url(../images/ljxz.jpg) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.download-dc{
+     width:7.5rem;
+     height:0.22rem;
+     background:#f2f2f2;
+}
+/*底部*/
+.bottom-all{
+    width:7.5rem;
+    height:3.1rem;
+    background:#fff;
+}
+.bottom-all-top{
+    width:7.5rem;
+    height:0.26rem;
+    margin-top:0.34rem;
+    margin-bottom:0.34rem;
+}
+.bottom-all-top a{
+    width:20%;
+    float:left;
+    display:block;
+    height:0.26rem;
+    font-size:0.26rem;
+    color:#333;
+    text-align:center;
+    border-right:0.01rem solid #f2f2f2;
+}
+.bottom-all-bottom{
+    width:7.5rem;
+    height:0.2rem;
+    color:#909090;
+    font-size:0.2rem;
+    text-align:center;
+    margin-top:0.51rem;
+}
 
 /*底部固定栏*/
 .dbgdl{
@@ -944,8 +1055,24 @@ html{
     text-align:center;
     font-size:0.24rem;
 }
-
-
+/*回到顶部*/
+.hddb{
+    width:0.8rem;
+    height:0.8rem;
+    border-radius:50%;
+    background:#5b6167;
+    position:fixed;
+    bottom:1.5rem;
+    right:0.2rem;
+}
+.hddb-tb{
+    width:0.3rem;
+    height:0.38rem;
+    background:url(../images/hddb.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.22rem;
+    margin-left:0.25rem;
+}
 
 
 
