@@ -1,0 +1,245 @@
+*{
+    box-sizing:border-box;
+}
+body,p,pre,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,span{
+    padding:0;
+    margin: 0;
+    list-style:none;
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    display:block;
+    border:none;
+}
+body{
+    list-style:none;
+    font-size:0.24rem;
+}
+html{
+    font-size:100px;
+    font-family:"苹方";
+}
+.all{
+    width:7.5rem;
+    height:13.34rem;
+    background:#525154;
+}
+.top{
+    width:7.5rem;
+    height:1.40rem;
+    background:#29a6dc;
+    position:relative;
+}
+.topwz{
+    width:2.3rem;
+    height:0.5rem;
+    margin-left:2.7rem;
+    margin-top:0.5rem;
+    position:absolute;
+    text-align:center;
+}
+.topwz1{
+    width:2.3rem;
+    height:0.36rem;
+    color:#fff;
+    font-size:0.36rem;
+    margin:0 auto;
+}
+.topwz2{
+    width:0.34rem;
+    height:0.03rem;
+    margin:0 auto;
+    margin-top:0.1rem;
+    background:url(../images/app2/topwz2.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.topwz3{
+    width:2.3rem;
+    height:0.13rem;
+    color:#fff;
+    font-size:0.14rem;
+    margin:0 auto;
+}
+.return{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:0.25rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return img{
+    display:block;
+    width:0.09rem;
+    height:0.17rem;
+    margin:0.12rem 0.13rem;
+}
+.bottom{
+    width:7.5rem;
+    height:11.94rem;
+    background:#fff;
+    position:relative;
+}
+.bottom-inter{
+    width:7.5rem;
+    height:10.79rem;
+    position:absolute;
+
+}
+.bottom-3{
+    width:6.89rem;
+    height:1.54rem;
+    -webkit-box-shadow:#dbdfe6 0 0 0.2rem;  
+    -moz-box-shadow:#dbdfe6 0 0 0.2rem;
+    border-radius:0.1rem; 
+    margin-left:0.31rem;
+    margin-top:0.25rem;
+}
+.bottom-3-left{
+    width:0.8rem;
+    height:0.8rem;
+    background:url(../images/app3/zxsp-1.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-left:0.19rem;
+    margin-top:0.25rem;
+    float:left;
+}
+.bottom-3-right{
+    width:5.6rem;
+    height:1.2rem;
+    float:left;
+    margin-top:0.25rem;
+    margin-left:0.28rem;
+}
+.bottom-3-right1{
+    width:5.2rem;
+    height:0.75rem;
+    margin-left:0.07rem;
+    font-size:0.22rem;
+    color:#737373;
+    border-bottom:0.01rem dashed #737373;
+}
+.bottom-3-right2{
+    width:5.6rem;
+    height:0.35rem;
+    margin-top:0.1rem;
+}
+.bottom-3-right2-1{
+    width:0.35rem;
+    height:0.35rem;
+    border-radius:50%;
+    -webkit-box-shadow:#dbdfe6 0 0 0.2rem;  
+    -moz-box-shadow:#dbdfe6 0 0 0.2rem;
+    float:left;
+}
+.bottom-3-right2-1 img{
+    width:0.16rem;
+    height:0.16rem;
+    margin-top:0.09rem;
+    margin-left:0.09rem;
+}
+.bottom-3-right2-2{
+    width:0.79rem;
+    height:0.13rem;
+    color:#a4a1a1;
+    font-size:0.14rem;
+    margin-left:0.1rem;
+    margin-top:0.03rem;
+    float:left;
+}
+.bottom-3-right2-3{
+    width:0.35rem;
+    height:0.35rem;
+    border-radius:50%;
+    -webkit-box-shadow:#dbdfe6 0 0 0.2rem;  
+    -moz-box-shadow:#dbdfe6 0 0 0.2rem;
+    float:left;
+    margin-left:2.42rem;
+}
+.bottom-3-right2-3 img{
+    width:0.16rem;
+    height:0.16rem;
+    margin-top:0.09rem;
+    margin-left:0.09rem;
+}
+.bottom-3-right2-4{
+    width:0.3rem;
+    height:0.35rem;
+    color:#a4a1a1;
+    font-size:0.14rem;
+    margin-left:4.2rem;
+    margin-top:0.1rem;
+    line-height:0.35rem;
+}
+.fbpl{
+    width:7.5rem;
+    height:1.27rem;
+    background:#151c2b;
+    position:absolute;
+    margin-top:10.79rem;
+}
+.fbpl-button{
+    width:1.4rem;
+    height:0.51rem;
+    background:#f4f4f4;
+    border-radius:0.25rem;
+    margin-top:0.41rem;
+    margin-left:3.25rem;
+}
+.fbpl-button1{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background:#c4c4c4;
+    float:left;
+    margin-left:0.08rem;
+    margin-top:0.24rem;
+}
+.fbpl-button2{
+    width:1.11rem;
+    height:0.21rem;
+    text-align:center;
+    line-height:0.51rem;
+    float:left;
+    color:#393939;
+}
+.fbpl-button3{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background:#c4c4c4;
+    float:left;
+    margin-top:0.24rem;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.7px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+}
+
+@media screen and (min-width:412px){
+    html{
+        font-size:54.9px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size:55.3px;
+    }
+}

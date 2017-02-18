@@ -1,0 +1,257 @@
+*{
+    box-sizing:border-box;
+}
+body,p,pre,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,span{
+    padding:0;
+    margin: 0;
+    list-style:none;
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    display:block;
+    border:none;
+}
+body{
+    list-style:none;
+    font-size:0.24rem;
+}
+html{
+    font-size:100px;
+    font-family:"苹方";
+}
+.all{
+    width:7.5rem;
+    height:13.34rem;
+    background:#525154;
+}
+.top{
+    width:7.5rem;
+    height:1.40rem;
+    background:#29a6dc;
+    position:relative;
+}
+.topwz{
+    width:2.3rem;
+    height:0.5rem;
+    margin-left:2.7rem;
+    margin-top:0.5rem;
+    position:absolute;
+    text-align:center;
+}
+.topwz1{
+    width:2.3rem;
+    height:0.36rem;
+    color:#fff;
+    font-size:0.36rem;
+    margin:0 auto;
+}
+.topwz2{
+    width:0.34rem;
+    height:0.03rem;
+    margin:0 auto;
+    margin-top:0.1rem;
+    background:url(../images/app2/topwz2.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.topwz3{
+    width:2.3rem;
+    height:0.13rem;
+    color:#fff;
+    font-size:0.14rem;
+    margin:0 auto;
+}
+.return{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:0.25rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return img{
+    display:block;
+    width:0.09rem;
+    height:0.17rem;
+    margin:0.12rem 0.13rem;
+}
+.bottom{
+    width:7.5rem;
+    height:11.94rem;
+    background:#fff;
+    position:relative;
+}
+.bottom-1-zt{
+    width:7.5rem;
+    height:7rem;
+    margin-top:0.36rem;
+    position:absolute;
+}
+.bottom-1{
+    width:7.5rem;
+    height:1.22rem;
+    border-bottom:0.03rem dashed #999999;
+}
+.bottom-1-left{
+    width:0.66rem;
+    height:0.64rem;
+    background:url(../images/app3/wdsq.png)no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.1rem;
+    margin-left:0.49rem;
+    float:left;
+}
+.bottom-1-right{
+    width:5.7rem;
+    height:0.87rem;
+    float:left;
+    margin-left:0.25rem;
+}
+.bottom-1-right1{
+    width:5.7rem;
+    height:0.23rem;
+    color:#151c2b;
+    font-size:0.24rem;
+}
+.bottom-1-right2{
+    width:5.7rem;
+    height:0.18rem;
+    color:#505050;
+    font-size:0.18rem;
+    margin-top:0.12rem;
+    margin-bottom:0.18rem;
+}
+.bottom-1-right3{
+    width:5.5rem;
+    height:0.16rem;
+    margin-top:0.2rem;
+}
+.bottom-1-right31{
+    width:0.6rem;
+    height:0.16rem;
+    float:left;
+}
+.bottom-1-right31 img{
+    display:block;
+    width:0.16rem;
+    height:0.16rem;
+    float:left;
+}
+.bottom-1-right31 span{
+    display:block;
+    width:0.18rem;
+    height:0.18rem;
+    float:left;
+    font-size:0.14rem;
+    line-height:0.18rem;
+    margin-left:0.05rem;
+    color:#7f7f7f;
+}
+.bottom-1-right32{
+    width:0.6rem;
+    height:0.16rem;
+    float:left;
+    margin-left:4.25rem;
+}
+.bottom-1-right32 img{
+    display:block;
+    width:0.16rem;
+    height:0.16rem;
+    float:left;
+}
+.bottom-1-right32 span{
+    display:block;
+    width:0.18rem;
+    height:0.18rem;
+    float:left;
+    font-size:0.14rem;
+    line-height:0.18rem;
+    margin-left:0.05rem;
+    color:#7f7f7f;
+}
+.bttom-1-dj{
+    width:7.5rem;
+    height:1.22rem;
+    background:#29dcbc;
+    position:relative;
+}
+.bottom-1-dj2{
+    width:0.91rem;
+    height:1.19rem;
+    background:url(../images/app4/bottom-1-dj2.png) no-repeat 0 0;
+    background-size:100% 100%;
+    margin-left:6.59rem;
+    margin-top:0.01rem;
+    position:absolute;
+}
+.fbpl{
+    width:7.5rem;
+    height:1.27rem;
+    background:#151c2b;
+    position:absolute;
+    margin-top:10.79rem;
+}
+.fbpl-button{
+    width:1.4rem;
+    height:0.51rem;
+    background:#f4f4f4;
+    border-radius:0.25rem;
+    margin-top:0.41rem;
+    margin-left:3.25rem;
+}
+.fbpl-button1{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background:#c4c4c4;
+    float:left;
+    margin-left:0.08rem;
+    margin-top:0.24rem;
+}
+.fbpl-button2{
+    width:1.11rem;
+    height:0.21rem;
+    text-align:center;
+    line-height:0.51rem;
+    float:left;
+    color:#393939;
+}
+.fbpl-button3{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background:#c4c4c4;
+    float:left;
+    margin-top:0.24rem;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.7px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+}
+
+@media screen and (min-width:412px){
+    html{
+        font-size:54.9px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size:55.3px;
+    }
+}

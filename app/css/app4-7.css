@@ -1,0 +1,153 @@
+*{
+    box-sizing:border-box;
+}
+body,p,pre,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,span{
+    padding:0;
+    margin: 0;
+    list-style:none;
+    border:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    display:block;
+    border:none;
+}
+body{
+    list-style:none;
+    font-size:0.24rem;
+}
+html{
+    font-size:100px;
+    font-family:"苹方";
+}
+.all{
+    width:7.5rem;
+    height:13.34rem;
+    background:#525154;
+}
+.top{
+    width:7.5rem;
+    height:1.40rem;
+    background:#29a6dc;
+    position:relative;
+}
+.topwz{
+    width:1.5rem;
+    height:0.5rem;
+    margin-left:2.8rem;
+    margin-top:0.5rem;
+    position:absolute;
+}
+.topwz1{
+    width:1.5rem;
+    height:0.36rem;
+    color:#fff;
+    font-size:0.36rem;
+    margin:0 auto;
+    margin-left:0.27rem;
+}
+.topwz2{
+    width:0.34rem;
+    height:0.03rem;
+    margin-top:0.1rem;
+    margin-left:0.7rem;
+    background:url(../images/app2/topwz2.png) no-repeat 0 0;
+    background-size:100% 100%;
+}
+.topwz3{
+    width:1.5rem;
+    height:0.13rem;
+    color:#fff;
+    font-size:0.14rem;
+    margin-left:0.2rem;
+}
+.return{
+    width:0.44rem;
+    height:0.44rem;
+    background:#fff;
+    border-radius:50%;
+    border:2px solid #076cbe;
+    margin-left:0.25rem;
+    margin-top:0.68rem;
+    position:absolute;
+}
+.return img{
+    display:block;
+    width:0.22rem;
+    height:0.22rem;
+    margin:0.07rem 0.07rem;
+}
+
+
+.bottom{
+    width:7.5rem;
+    height:11.94rem;
+    background:#fafafa;
+    position:relative;
+}
+.bottom-1{
+    width:7rem;
+    height:7.5rem;
+    background:#fff;
+    box-shadow:0 0 0.1rem #dddbdb;
+    position:absolute;
+    margin-left:0.27rem;
+    margin-top:0.19rem;
+}
+.bottom-1-wz1{
+    width:7rem;
+    height:0.26rem;
+    margin-top:0.27rem;
+    font-size:0.26rem;
+    text-align:center;
+}
+.bottom-1-wz2{
+    width:7rem;
+    height:0.12rem;
+    margin-top:0.1rem;
+    font-size:0.12rem;
+    text-align:center;
+}
+.bottom-1-wz3{
+    width:5.5rem;
+    height:0.95rem;
+    color:#666666;
+    margin-left:0.65rem;
+    margin-top:0.7rem;
+}
+.bottom-1-wz4{
+    width:5.5rem;
+    height:0.95rem;
+    color:#666666;
+    margin-left:0.65rem;
+    margin-top:1rem;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.7px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+}
+
+@media screen and (min-width:412px){
+    html{
+        font-size:54.9px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size:55.3px;
+    }
+}
