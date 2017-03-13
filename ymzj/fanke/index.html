@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>凡客</title>
 	<link rel="stylesheet" href="css/index.css">
+  <script src="animate.js"></script>
 </head>
 <body>
 
@@ -29,6 +30,7 @@
             </div>
             <div class="topleft">
             <div class="topwx"></div>
+            <div class="topewm"></div>
             <div class="topwb"></div>
             </div>
         </div>
@@ -64,38 +66,114 @@
 <div class="Rightcolumn">
           <div class="Rightcolumn-download"></div>
           <div class="Rightcolumn-connect"></div>
-          <div class="Rightcolumn-totop"></div>
+          <div class="Rightcolumntotop"></div>
 </div>
 
 <!-- 导航栏开始 -->
 <div class="navigation">
     <div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
     <div class="navigation-list">
-        <a href="#">首页</a>
-        | 
-        <a href="#">衬衫</a>
-        | 
-        <a href="#">羽绒服</a>
-        | 
-        <a href="#">外套</a>
-        | 
-        <a href="#">针织衫</a>
-        | 
-        <a href="#">水柔棉</a>
-        | 
-        <a href="#">裤装</a>
-        | 
-        <a href="#">鞋</a>
-        | 
-        <a href="#">袜品</a>
-        | 
-        <a href="#">家居配饰</a>
+       <!--  <a href="#">首页</a>| 
+        <a href="#">衬衫</a>| 
+        <a href="#">羽绒服</a>| 
+        <a href="#">外套</a>| 
+        <a href="#">针织衫</a>| 
+        <a href="#">水柔棉</a>| 
+        <a href="#">裤装</a>| 
+        <a href="#">鞋</a>| 
+        <a href="#">袜品</a>| 
+        <a href="#">家居配饰</a> -->
+  <ul id="nav">
+  <li>
+  <a href="#">首页</a></li>
+  <li><a href="#">衬衫</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">外套</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">针织衫</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">水柔棉</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">裤装</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">鞋</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">袜品</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li><a href="#">家居配饰</a>
+  <ul>
+    <li><a href="#">免烫</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">高支</a></li>
+    <li><a href="#">休闲</a></li>
+  </ul>
+  </li>
+  <li style="border-right:none;"><a href="#" style="">韩国购</a>
+  </li>
+</ul>
+
+
+
     </div>
 </div>
 
 <!-- banner -->
 
-<div class="banner"><a href="#" target="_blank"><img src="images/101.jpg" alt=""></a>
+<div class="banner">
+
+<a href="#" target="_blank">
+<img src="images/banner1.jpg" alt="" class="banner1">
+<img src="images/banner2.jpg" alt="" class="banner1">
+<img src="images/banner3.jpg" alt="" class="banner1">
+<img src="images/banner4.jpg" alt="" class="banner1">
+<img src="images/banner5.jpg" alt="" class="banner1">
+<img src="images/banner7.jpg" alt="" class="banner1">
+</a>
+    <div class="jt1"></div>
+    <div class="jt2"></div>
     <div class="box">
            <a href="#"><div class="cicrcle" style="background:red;"></div></a>
            <a href="#"><div class="cicrcle"></div></a>
@@ -443,4 +521,90 @@
     <div class="cooperative6"><a href="#"><img src="images/cctv.png" alt="" style="width:140px;height:42px;"></a></div>
     </div>
 </body>
+<script>
+var cicrcle=document.getElementsByClassName("cicrcle");
+var banner1=document.getElementsByClassName("banner1");
+for(let i=0;i<cicrcle.length;i++){
+   cicrcle[i].onmouseover=function(){
+    for(let j=0;j<banner1.length;j++){
+      cicrcle[j].style.backgroundColor="#444";
+      banner1[j].style.zIndex="1";
+      banner1[j].style.opacity="0";
+    }
+    cicrcle[i].style.backgroundColor="red";
+    banner1[i].style.zIndex="2";
+    banner1[i].style.opacity="1";
+    num=i;
+   }
+}
+var t1=setInterval(move,3000);
+var num=0;
+function move(){
+    num++;
+    if (num==-1) {
+      num=banner1.length-1;
+    }
+    if (num==banner1.length) {
+      num=0;
+    }
+    for(var j=0;j<banner1.length;j++){
+      cicrcle[j].style.backgroundColor="#444";
+      banner1[j].style.opacity="0";
+      banner1[j].style.zIndex="0";
+    }
+    cicrcle[num].style.backgroundColor="red";
+    banner1[num].style.opacity="1";
+    banner1[num].style.zIndex="1";
+}
+var banner=document.getElementsByClassName("banner")[0];
+banner.onmouseover=function(){
+    clearInterval(t1);
+}
+banner.onmouseout=function(){
+    t1=setInterval(move,3000);
+}
+var jt2=document.getElementsByClassName("jt2")[0];
+var jt1=document.getElementsByClassName("jt1")[0];
+jt2.onclick=function(){
+  move();
+}
+jt1.onclick=function(){
+  num-=2;
+  move();
+};
+
+var topwx=document.getElementsByClassName("topwx")[0];
+var topewm=document.getElementsByClassName("topewm")[0];
+    topwx.onmouseover=function(){
+      topewm.style.display="block";
+    };
+    topwx.onmouseout=function(){
+      topewm.style.display="none";
+    };
+
+
+     var lis=document.querySelectorAll("#nav>li");
+       lis=Array.from(lis).slice(1);
+   var uls=document.querySelectorAll("#nav ul");
+   var heightarr=Array.from(uls).map(function(ele){
+    var lis=ele.querySelectorAll("li");
+    return lis.length*30+5+"px";
+   })
+   lis.forEach(function(ele,i){
+    ele.onmouseover=function(){
+      uls[i].style.height=heightarr[i];
+    };
+    ele.onmouseout=function(){
+      uls[i].style.height=0;
+    };
+   });
+
+
+   var box=document.querySelector(".Rightcolumntotop");
+    box.onclick=function(){
+        var obj=document.body.scrollTop==0?document.documentElement:
+                document.body;
+        animate(obj,{scrollTop:0},500)
+    }
+</script>
 </html>

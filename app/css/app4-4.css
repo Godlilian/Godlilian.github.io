@@ -86,6 +86,7 @@ html{
     height:11.94rem;
     background:#fafafa;
     position:relative;
+    color:#666666;
 }
 .bottom-1{
     width:1.28rem;
@@ -193,6 +194,66 @@ html{
     font-size:0.28rem;
     margin-left:4.06rem;
     margin-top:4.8rem;
+    position:absolute;
+}
+.bottom-10{
+    width:1.85rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0.01rem solid #3a3a3a;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.28rem;
+    margin-left:1.56rem;
+    margin-top:5.9rem;
+    position:absolute;
+}
+.bottom-11{
+    width:1.85rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0.01rem solid #3a3a3a;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.28rem;
+    margin-left:3.56rem;
+    margin-top:5.9rem;
+    position:absolute;
+}
+.bottom-12{
+    width:1.85rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0.01rem solid #3a3a3a;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.28rem;
+    margin-left:1.06rem;
+    margin-top:7rem;
+    position:absolute;
+}
+.bottom-13{
+    width:1.85rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0.01rem solid #3a3a3a;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.28rem;
+    margin-left:3.26rem;
+    margin-top:7rem;
+    position:absolute;
+}
+.bottom-14{
+    width:1.28rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0.01rem solid #3a3a3a;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.28rem;
+    margin-left:5.5rem;
+    margin-top:7rem;
     position:absolute;
 }
 .bottom-anniu{

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>中国移动</title>
 	<link rel="stylesheet" href="css/index.css">
+  <script src="js/zgyd.js"></script>
 </head>
 <body>
 <!--顶部 -->
@@ -11,17 +12,31 @@
     <div class="contentinnertop">
         <div class="topinnerleft">
            <div class="topinnerleft-1"><a href="#">ENGLISH</a></div>
-           <div class="topinnerleft-2"><a href="#">政企客户</div></a>
+           <div class="topinnerleft-2"><a href="#">政企客户</a></div>
         </div>
         <div class="topinnerright">
-               <a href="#" id="topinnerwz-1"><div class="topinnerright-1"><span>
-               登录</span></div></a>
+              <div class="topinnerright-1zt">
+               <div class="topinnerright-1">
+               <a href="#" id="topinnerwz-1">
+               <span>登录</span>
+               </a>
+               <div class="topinnerright1bottom">
+               <div class="topinnerright1bottom1">登录移动商城</div>
+               <div class="topinnerright1bottom2">登录网上营业厅</div></div>
+               </div>
+               </div>
                <div class="topinnerright-sx"></div>
                <div class="topinnerright-2">
-               <a href="#" id="topinnerwz">
+               <a href="#" id="topinnerwz-2">
                <div class="topinnerright2-tel">
-               <span>手机营业厅</span></div></a>
-               <div class="topinnerright2-tx"></div></div>
+               <div class="topinnerright2-tel2"></div>
+               <span>手机营业厅</span></div>
+               <div class="topinnerright2-tx"></div>
+               </a>
+               <div class="topinnerright2bottom" >
+               <img src="images/topewm.jpg" style="width: 100px; height: 100px;">
+               <p>扫一扫，随时查话费！</p></div>
+               </div>
                <div class="topinnerright-sx"></div>
                <div class="topinnerright-3">
                <span><a href="#" id="topinnerwz">积分商城</a></span></div>
@@ -33,6 +48,7 @@
                <span><a href="#" id="topinnerwz">联系我们</a></span></div> 
         </div>
     </div>
+               </div>
 </div>
 <!-- 搜索 -->
 <div class="search-top">
@@ -64,17 +80,62 @@
 
 <!-- 导航栏 -->
 
-<div class="navigation">
-  <a href="#">
+  <!-- <a href="#">
     <div class="navigation-sy">
     <div class="navigation-sy1"></div>
     <div class="navigation-sy2">首页</div></div>
     <div class="navigation-dh">移动商城</div>
     <div class="navigation-dh">我的移动</div>
     <div class="navigation-dh">网上营业厅</div>
-    <div class="navigation-dh" style="border:none;">服务与支持</div>
-  </a>
-</div>
+    <div class="navigation-dh" style="border:none;">服务与支持</div> -->
+
+<ul id="nav">
+  <li style="font-weight:bold;color:#0085d0;">
+  <div class="navigation-sy1"></div>
+  首页</li>
+  <li>移动商城</li>
+  <ul class="nav1">
+    <li style="background:#fff;width:171px;height:40px;">买手机</li>
+    <li style="background:#fff;width:171px;height:40px;">办套餐</li>
+    <li style="background:#fff;width:171px;height:40px;">办业务</li>
+    <li style="background:#fff;width:171px;height:40px;">调配件</li>
+    <li style="background:#fff;width:171px;height:40px;">立即充值</li>
+    <li style="background:#fff;width:171px;height:40px;">个人中心</li>
+  </ul>
+  </li>
+  <li>我的移动</li>
+  <ul class="nav1">
+    <li style="background:#fff;width:170px;height:40px;">我的消费</li>
+    <li style="background:#fff;width:170px;height:40px;">电子发票</li>
+    <li style="background:#fff;width:170px;height:40px;">业务状态查询</li>
+    <li style="background:#fff;width:170px;height:40px;">充话费9.95折</li>
+    <li style="background:#fff;width:170px;height:40px;">宽带信息查询</li>
+    <li style="background:#fff;width:170px;height:40px;">账单查询</li>
+    <li style="background:#fff;width:170px;height:40px;">积分查询</li>
+  </ul>
+  </li>
+  <li>网上营业厅</li>
+  <ul class="nav1">
+    <li style="background:#fff;width:170px;height:40px;">我的消费</li>
+    <li style="background:#fff;width:170px;height:40px;">流量加量不加价</li>
+    <li style="background:#fff;width:170px;height:40px;">充话费9.95折</li>
+    <li style="background:#fff;width:170px;height:40px;">0.9元=1G流量</li>
+    <li style="background:#fff;width:170px;height:40px;">流量直充月包5折</li>
+    <li style="background:#fff;width:170px;height:40px;">0元宽带</li>
+    <li style="background:#fff;width:170px;height:40px;">用秘笈帮您选宽带</li>
+  </ul>
+  </li>
+  <li>服务与支持</li>
+  <ul class="nav1">
+    <li style="background:#fff;width:170px;height:40px;">产品</li>
+    <li style="background:#fff;width:170px;height:40px;">资费专区</li>
+    <li style="background:#fff;width:170px;height:40px;">宽带专区</li>
+    <li style="background:#fff;width:170px;height:40px;">国际/港澳台</li>
+    <li style="background:#fff;width:170px;height:40px;">星级服务</li>
+    <li style="background:#fff;width:170px;height:40px;">公益广告宣传</li>
+    <li style="background:#fff;width:170px;height:40px;">2017校园招聘</li>
+  </ul>
+</ul>
 
 <!-- banner开始 -->
 
@@ -94,22 +155,33 @@
     </div>
 
     <!--banner中  -->
-
-  <div class="banner-center">
-      <a href="#">
-      <div class="banner-center-leftbutton"></div>
-      <div class="banner-center-rightbutton"></div></a>
-      <div class="banner-center-button">
-        <a href="#"><div class="cicrcle" style="background:#ec0077;"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
-        <a href="#"><div class="cicrcle"></div></a>
+<div class="bannercenter">
+<div class="bannercenter1">
+<img src="images/banner2(8).jpg" alt="" class="banner1">
+<img src="images/banner2.jpg"    alt="" class="banner1">
+<img src="images/banner2(1).jpg" alt="" class="banner1">
+<img src="images/banner2(2).jpg" alt="" class="banner1">
+<img src="images/banner2(3).jpg" alt="" class="banner1">
+<img src="images/banner2(4).jpg" alt="" class="banner1">
+<img src="images/banner2(5).jpg" alt="" class="banner1">
+<img src="images/banner2(6).jpg" alt="" class="banner1">
+<img src="images/banner2(7).jpg" alt="" class="banner1">
+<img src="images/banner2(8).jpg" alt="" class="banner1">
+<img src="images/banner2.jpg"    alt="" class="banner1">
       </div>
+      <div class="bannercenterbutton">
+        <div class="cicrcle" style="background:#ec0077;"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+        <div class="cicrcle"></div>
+      </div>
+      <div class="bannercenterleftbutton"></div>
+      <div class="bannercenterrightbutton"></div>
   </div>
     <!-- banner右栏 -->
     <div class="banner-right">
@@ -176,7 +248,7 @@
 <!-- 转动条 -->
 <div class="rotating">
   <div class="rotating-innter">
-    <a href="#">
+    <!-- <a href="#">
     <p class="rotatingwz1">移动大小号流量集结号</p>
     <p class="rotatingwz2">每天一元500MB</p>
     <img src="images/khz1.jpg" alt="" title="移动大小号流量集结号">
@@ -195,10 +267,55 @@
     <p class="rotatingwz1">真土货，原味年</p>
     <p class="rotatingwz2">注册即送500M流量</p>
     <img src="images/khz4.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz1.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz2.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz3.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz4.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz1.jpg" alt="" title="真土货，原味年">
+    </a>
+    <a href="#">
+    <p class="rotatingwz1">真土货，原味年</p>
+    <p class="rotatingwz2">注册即送500M流量</p>
+    <img src="images/khz2.jpg" alt="" title="真土货，原味年">
+    </a> -->
+    <ul class="rotating-zt">
+      <li class="img"><img src="images/khz3.jpg" alt=""></li>
+      <li class="img"><img src="images/khz4.jpg" alt=""></li>
+      <li class="img"><img src="images/khz5.jpg" alt=""></li>
+      <li class="img"><img src="images/khz6.jpg" alt=""></li>
+      <li class="img"><img src="images/khz7.jpg" alt=""></li>
+      <li class="img"><img src="images/khz8.jpg" alt=""></li>
+      <li class="img"><img src="images/khz9.jpg" alt=""></li>
+      <li class="img"><img src="images/khz10.jpg" alt=""></li>
+      <li class="img"><img src="images/khz3.jpg" alt=""></li>
+      <li class="img"><img src="images/khz4.jpg" alt=""></li>
+      <li class="img"><img src="images/khz5.jpg" alt=""></li>
+      <li class="img"><img src="images/khz6.jpg" alt=""></li>
+    </ul>
     </div>
-    <div class="rotating-l-r">
-        <a href="#" class="rotating-left"></a>
-        <a href="#" class="rotating-right"></a>
+    <div class="rotatinglr">
+        <div class="rotatingleft"></div>
+        <div class="rotatingright"></div>
     </div>
 </div>
 <!-- 4G专区 -->
@@ -303,21 +420,19 @@
   </div>
   <!-- 公告 -->
   <div class="notice">
-     <div class="notice-left">
-        <ul>
-            <li id="notice-left1"><img src="images/ggyl.png" alt=""></li>
-            <li id="notice-left2">公告:</li>
-            <li id="notice-left3"><a href="#">-&nbsp;2016年9月客户最喜爱机型排名</a></li>
-            <li id="notice-left4">2016-12-28</li>
+      <div class="noticeleftzt">
+          <div class="noticeleft1"><img src="images/ggyl.png" alt=""></div>
+          <div class="noticeleft2">公告:</div>
+      </div>
+      <ul class="noticeleft">
+            <li class="noticeleft3">2016年9月客户最喜爱机型排名</li>
+            <li class="noticeleft4">2016-12-28</li>
         </ul>
-     </div>
-     <div class="notice-center">
-      <ul>
-          <li id="notice-left3"><a href="#">-&nbsp;陕西网上营业厅电子发票业务维护公告</a></li>
-          <li id="notice-left4">2016-01-06</li>
+      <ul class="noticeleft">
+          <li class="noticeleft3">陕西网上营业厅电子发票业务</li>
+          <li class="noticeleft4">2016-01-06</li>
         </ul>
-     </div>
-     <div class="notice-right">
+     <div class="noticeright">
       <a href="#"><&nbsp;&nbsp;></a>
      </div>
   </div>
