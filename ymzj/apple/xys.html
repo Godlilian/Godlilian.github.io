@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>响应式</title>
 	<link rel="stylesheet" href="css/xys.css">
+    <script src="js/hover.js"></script>
+    <script src="js/xys.js"></script>
 </head>
 <body>
 <!-- 顶部 -->
@@ -11,16 +13,32 @@
   <ul class="nav-c" id="iconfont">
       <li class="nav-l show-s" id="open">&#xe607;</li>
       <li class="nav-l"><a href="#">&#xe691;</a></li>
-      <li class="nav-l hidden-s"><a href="">Mac</a></li>
-      <li class="nav-l hidden-s"><a href="">iPad</a></li>
-      <li class="nav-l hidden-s"><a href="">iPhone</a></li>
-      <li class="nav-l hidden-s"><a href="">Watch</a></li>
-      <li class="nav-l hidden-s"><a href="">TV</a></li>
-      <li class="nav-l hidden-s"><a href="">Music</a></li>
-      <li class="nav-l hidden-s"><a href="">Support</a></li>
-      <li class="nav-l hidden-s" id="iconfont"><a href="">&#xe601;</a></li>
-      <li class="nav-l" id="iconfont"><a href="">&#xe64b;</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">Mac</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">iPad</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">iPhone</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">Watch</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">TV</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">Music</a></li>
+      <li class="nav-l hidden-s"><a id="hidden">Support</a></li>
+      <li class="nav-l hidden-s" id="iconfont"><a id="searchbtn">&#xe601;</a></li>
+      <li class="nav-l" id="iconfont"><a id="gbbtn">&#xe64b;</a></li>
   </ul>
+  <div class="searchb">
+      <div class="searchbt">
+          <div class="searchbt1" id="iconfont">&#xe601;</div>
+          <input type="text" placeholder="搜索apple.com"  class="searchbt2">
+          <div class="searchbt3">×</div>
+      </div>
+      <div class="searchbb">
+          <h3>快速链接</h3>
+          <ul class="searchbb2">
+              <li>&nbsp;&nbsp;&nbsp;查找零售店</li>
+              <li>&nbsp;&nbsp;&nbsp;配件</li>
+              <li>&nbsp;&nbsp;&nbsp;ipod</li>
+              <li>&nbsp;&nbsp;&nbsp;iOS</li>
+          </ul>
+      </div>
+  </div>
 </nav>
 <!-- banner -->
 <!-- <div class="banner">
@@ -36,13 +54,32 @@
     </li>
   </ul>
   </div> -->
-<div class="banner">
-<img src="images/banner.jpg" alt="">
-<div class="banner-top"><br>
-<span>新年制造</span><br>
-<p>新春开新意，我们邀请了几位艺术家来使用APPLE产品来创作年画，重新演绎这一中国传统。</p>
-</div>
-</div>
+<!--<div class="banner">-->
+    <div class="bannercon">
+        <div class="banner1" id="banner">
+            <div class="bannertop1 bannertop">APPLE</div>
+            <div class="bannerbox1"></div>
+        </div>
+        <div class="banner2" id="banner">
+            <div class="bannertop2 bannertop">APPLE WATCH</div>
+            <div class="bannerbox2"></div>
+        </div>
+        <div class="banner3" id="banner">
+            <div class="bannertop3 bannertop">iPHONE</div>
+            <div class="bannerbox3"></div>
+        </div>
+        <div class="bannerbtn">
+            <div class="xzbtn" style="background:#6c6c6c;"></div>
+            <div class="xzbtn"></div>
+            <div class="xzbtn"></div>
+        </div>
+    </div>
+<!--<img src="images/banner.jpg" alt="">-->
+<!--<div class="banner-top"><br>-->
+<!--<span>新年制造</span><br>-->
+<!--<p>新春开新意，我们邀请了几位艺术家来使用APPLE产品来创作年画，重新演绎这一中国传统。</p>-->
+<!--</div>-->
+<!--</div>-->
 <!-- 中栏 -->
 <div class="container">
 	    <a href="" class="list"></a>

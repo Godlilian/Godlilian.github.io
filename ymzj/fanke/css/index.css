@@ -17,7 +17,9 @@ body{
 }
 
 /*内容6*/ 
-
+.active{
+	background:red;
+}
 .content6{
 	width:1200px;
 	height:507px;
