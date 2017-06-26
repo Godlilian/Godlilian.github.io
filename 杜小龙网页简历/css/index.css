@@ -1,0 +1,9 @@
+.section{
+	color:#000;
+	text-align:center;
+	line-height:100%;
+	font-size:60px;
+}
+#fp-nav ul li a span{
+    background:#fff;
+}
