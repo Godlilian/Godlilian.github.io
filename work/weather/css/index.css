@@ -11,10 +11,9 @@
 }
 body,html{
     width: 100%;
-    height: 100%;
     background-image: url(../images/bg/101.jpg);    
     background-size: cover;
-    overflow: hidden;
+    background-attachment:scroll;
 }
 .pppp{
     width: 100%;
@@ -211,7 +210,7 @@ body,html{
 /*空气质量 开始*/
 #Fature_tops{
         height: 2rem;
-    line-height:3rem;
+    line-height:3.4rem;
      
 }
 .Color_icon{

@@ -1,4 +1,5 @@
 // 8e556cb0f12a4aa5ba8af4613da4b7f1
+// 32b783aa291246d1b6acfd81e4d9965d 
 var options={
 	baseUrl:"https://free-api.heweather.com/v5/",
 	token:'5539e2bb4905430589730eae717d26a9',
