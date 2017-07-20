@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            do{
+            $(".scene").empty();
+            for(var i=0;i<10;i++){
+                for(var j=0;j<10;j++){
+                    var islei=Math.random()>0.85;
+                    $("<div></div>")
+                        .addClass(function () {
+                            if(islei){
+                                return "block lei";
+                            }else{
+                                return "block";
+                            }
+                        })
+                            .attr("id",i+"-"+j)
+                            .data("pos",{x:i,y:j})
+                            .mousedown(mousedownHandler)
+                            .appendTo(".scene")
+                }
+            }
+            }while($(".lei").length!=15);
+            function mousedownHandler(e) {
+                if(e.which==1){
+                    leftClick.call(this);
+                    //回调函数里进行bind处理
+                }else if(e.which==3){
+                    rightClick.call(this);
+                }
+            }
+            function leftClick() {
+                if($(this).hasClass("lei")) {
+                    $(".lei").addClass("show");
+                }else if($(this).hasClass("flag")){
+                    return;
+                }else{
+                    var pos=$(this).data("pos");
+                    var n=0;
+                    for(var i=pos.x-1;i<=pos.x+1;i++){
+                        for(var j=pos.y-1;j<=pos.y+1;j++){
+                            if($("#"+i+"-"+j).hasClass("lei")){
+                                n++;
+                            }
+                        }
+                    }
+                    $(this).text(n).addClass("number");
+                    if(n==0){
+                        for(var i=pos.x-1;i<=pos.x+1;i++){
+                            for(var j=pos.y-1;j<=pos.y+1;j++){
+                                var obj="#"+i+"-"+j;
+                                if($(obj).length!=0){
+                                    if(!$(obj).data("clicked")){
+                                         $(obj).data("clicked",true);
+                                         leftClick.call($(obj));
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+                var n=15;
+                function rightClick() {
+                    if($(this).hasClass("number")){
+                        return;
+                    }
+                    if(!$(this).hasClass("flag")){
+                        $(this).addClass("flag");
+                        n--;
+                        if(n<0){
+                            return;
+                        }else{
+                            $(".flagnum").html(n);
+                        }
+                        if(n==0){
+                            if($(".lei").filter(".flag").length==15){
+                                $(".block").not(".lei").addClass("number");
+                                alert("success");
+                            }
+                        }
+                    }else{
+                        $(this).removeClass("flag");
+                        n++;
+                        $(".flagnum").html(n);
+                    }
+                }
+
+            $(document).on("contextmenu",function (e) {   //contextmenu 浏览器右击事件
+                e.preventDefault();//阻止浏览器的默认行为
+            })
+        })
+    </script>
+    <style>
+        *{
+            -webkit-user-select:none;
+            -moz-user-select:none;
+            -ms-user-select:none;
+            user-select:none;
+        }
+        .scene{
+            width:500px;height:500px;
+            margin:0 auto;
+            border-left:1px solid #767676;
+            border-top:1px solid #767676;
+        }
+        .block{
+            width:49px;height:49px;
+            border-bottom: 1px solid #767676;
+            border-right:1px solid #767676;
+            float:left;
+            background:#D2D2D2;
+        }
+        .show{
+            background:url("lei.gif") no-repeat 0 0;
+            background-size:100% 100%;
+        }
+        .number{
+            background: #fff;
+            color: #0b0c0c;
+            text-align:center;
+            line-height: 49px;
+            font-size:30px;
+            font-weight: bold;
+        }
+        .flagnum{
+            position: absolute;
+            width:100px;height:100px;
+            left:100px;top:100px;
+            line-height: 100px;
+            border:1px solid #ccc;
+            background: #0e90cc;
+            text-align: center;
+            font-size:50px;
+            font-weight: bold;
+        }
+        .flag{
+            background:url("qizi.gif") no-repeat 0 0;
+            background-size:100% 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="scene"></div>
+<div class="flagnum">15</div>
+</body>
+</html>

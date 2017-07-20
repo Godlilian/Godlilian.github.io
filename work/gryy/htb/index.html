@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘图板</title>
+    <style>
+        body,ul,li{
+            margin:0;padding:0;
+            list-style:none;
+        }
+        body{
+            width:100%;height:100%;
+            background:#eefcc9;
+            overflow: hidden;
+        }
+        .box{
+            margin-top:25px;
+            margin-left:50px;
+        }
+        .control{
+            width:100%;height:80px;
+            background: #00cccb;
+            display: flex;
+            justify-content: space-between;
+        }
+        select{
+            width:60px;height:30px;
+            list-style:none;
+        }
+        label{
+            width:auto;height:60px;
+            margin:0 10px;
+        }
+        canvas{
+            display: block;
+            position:absolute;
+            left:0;top:0;right:0;bottom:0;
+            margin:auto;
+            background:#fff;
+            border:1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="control">
+    <div class="box">
+    <label>
+        <span>选择功能：</span>
+        <select id="shape">
+            <option value="line">线</option>
+            <option value="pen">铅笔</option>
+            <option value="rect">矩形</option>
+            <option value="circle">圆</option>
+            <option value="poly">多边形</option>
+            <option value="eraser">橡皮</option>
+        </select>
+    </label>
+    <label>
+         <span>画笔粗细：</span>
+         <select id="width">
+             <option value="1" selected="selected">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+         </select>
+    </label>
+    <label>
+        <span>选择样式：</span>
+        <select name="" id="style">
+            <option value="stroke"  selected="selected">描边</option>
+            <option value="fill">填充</option>
+        </select>
+    </label>
+    <label>
+        <span>画笔颜色：</span>
+        <input type="color" id="color"/>
+    </label>
+    <label>
+        <span>背景颜色：</span>
+        <input type="color" id="bgcolor"/>
+    </label>
+    <label>
+
+        <span>选择边数：</span>
+        <input type="number" value="3" min="3" max="9" id="side">
+        <!--<select name="">-->
+            <!--<option value="" selected="selected">3</option>-->
+            <!--<option value="">4</option>-->
+            <!--<option value="">5</option>-->
+            <!--<option value="">6</option>-->
+            <!--<option value="">7</option>-->
+            <!--<option value="">8</option>-->
+        <!--</select>-->
+    </label>
+    <label>
+        <input type="button" value="撤销" id="back">
+    </label>
+    <label>
+        <input type="button" value="保存" id="save">
+    </label>
+    <label id="del">
+        <input type="button" value="清空" id="del">
+    </label>
+</div>
+</div>
+<canvas width="500" height="500"></canvas>
+</body>
+<script src="draw.js"></script>
+<script>
+
+    var canvas=document.querySelector("canvas");
+    var del=document.querySelector("#del");
+    var cobj=canvas.getContext("2d");
+    var bgcolor=document.querySelector("#bgcolor");
+    var canvasHistory=[];
+    var save=document.querySelector("#save");
+    var back=document.querySelector("#back");
+    var style=document.querySelector("#style");
+    var st="stroke";
+    var color=document.querySelector("#color");
+    var co="#000";
+    var width=document.querySelector("#width");
+    var wi="1";
+    var side=document.querySelector("#side");
+    var s=3;
+    side.onchange=function () {
+        s=side.value;
+    };
+    width.onchange=function () {
+        wi=width.value;
+    };
+    color.onchange=function () {
+        co=color.value;
+    };
+    style.onchange=function () {
+        st=style.value;
+    };
+    var shape=document.querySelector("#shape");//样式
+    var type="line";
+    bgcolor.onchange=function () {
+        canvas.style.background=bgcolor.value;
+    };
+    shape.onchange=function () {
+        type=shape.value;
+    };
+    del.onclick=function(){
+        window.location.reload();
+    };
+    canvas.onmousedown=function (e) {
+        var sx=e.offsetX;
+        var sy=e.offsetY;
+        var draw=new Draw(cobj,{st,co,wi,s});
+        if(type=="pen"){
+            cobj.beginPath();
+            cobj.moveTo(sx,sy);
+        }
+//        if(type=="eraser"){
+//            draw.eraser(sx,sy);
+//        }
+        canvas.onmousemove=function (e) {
+            var ox=e.offsetX;
+            var oy=e.offsetY;
+            if(type!=="eraser"){
+                cobj.clearRect(0,0,500,500);
+                if(canvasHistory.length>0){
+                    cobj.putImageData(canvasHistory[canvasHistory.length-1],0,0);
+                }
+
+            }
+            draw[type](sx,sy,ox,oy,s);
+
+    };
+        canvas.onmouseup=function () {
+            canvas.onmousemove=null;
+            canvas.onmouseup=null;
+            var imgData=cobj.getImageData(0,0,500,500);
+            canvasHistory.push(imgData);
+        }
+    };
+    back.onclick=function () {
+        canvasHistory.pop();
+        cobj.clearRect(0,0,500,500);
+        if(canvasHistory.length==0){
+            alert("已经不能在撤销了");
+            return;
+        }
+
+        cobj.putImageData(canvasHistory[canvasHistory.length-1],0,0);
+    };
+    save.onclick=function () {
+        url=canvas.toDataURL("image/png");
+        location.href=url;
+    };
+</script>
+</html>
